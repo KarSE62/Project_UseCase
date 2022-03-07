@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+body{
+    font-family: 'Kanit', cursive;
+    
+}
+#pink{
+    color:#EF5DA8
+}
+
+#btn1{
+    background-color:#EF5DA8; color:#fff; border-radius:30px
+}
+
+#btn2{
+    background-color:#FFBBFF; color:#fff; border-radius:30px
+}
+
+.logo{
+    max-width:6%;
+    margin-right: 400px;
+}
+.inputsearch{
+    margin-right: 200px;
+}
+.logo-form {
+    width: 50%;
+}
+#img-join {
+    border-Radius: 600px;
+    width: 50px;
+    height: 50px;
+}

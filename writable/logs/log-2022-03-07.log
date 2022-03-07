@@ -1,0 +1,74 @@
+CRITICAL - 2022-03-07 01:06:58 --> require(components/navbar.php): Failed to open stream: No such file or directory
+#0 C:\Users\Kanokphon\Desktop\Prototype\app\Views\login.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(compone...', 'C:\\Users\\Kanokp...', 24)
+#1 C:\Users\Kanokphon\Desktop\Prototype\app\Views\login.php(24): require()
+#2 C:\Users\Kanokphon\Desktop\Prototype\system\View\View.php(210): include('C:\\Users\\Kanokp...')
+#3 C:\Users\Kanokphon\Desktop\Prototype\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\Users\Kanokphon\Desktop\Prototype\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#5 C:\Users\Kanokphon\Desktop\Prototype\app\Controllers\LoginController.php(19): view('login')
+#6 C:\Users\Kanokphon\Desktop\Prototype\system\CodeIgniter.php(825): App\Controllers\LoginController->index()
+#7 C:\Users\Kanokphon\Desktop\Prototype\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\Users\Kanokphon\Desktop\Prototype\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Kanokphon\Desktop\Prototype\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Kanokphon\Desktop\Prototype\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Kanokp...')
+#11 {main}
+CRITICAL - 2022-03-07 01:07:07 --> require(components/navbar.php): Failed to open stream: No such file or directory
+#0 C:\Users\Kanokphon\Desktop\Prototype\app\Views\login.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(compone...', 'C:\\Users\\Kanokp...', 24)
+#1 C:\Users\Kanokphon\Desktop\Prototype\app\Views\login.php(24): require()
+#2 C:\Users\Kanokphon\Desktop\Prototype\system\View\View.php(210): include('C:\\Users\\Kanokp...')
+#3 C:\Users\Kanokphon\Desktop\Prototype\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\Users\Kanokphon\Desktop\Prototype\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#5 C:\Users\Kanokphon\Desktop\Prototype\app\Controllers\LoginController.php(19): view('login')
+#6 C:\Users\Kanokphon\Desktop\Prototype\system\CodeIgniter.php(825): App\Controllers\LoginController->index()
+#7 C:\Users\Kanokphon\Desktop\Prototype\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\Users\Kanokphon\Desktop\Prototype\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Kanokphon\Desktop\Prototype\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Kanokphon\Desktop\Prototype\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Kanokp...')
+#11 {main}
+CRITICAL - 2022-03-07 01:22:14 --> Call to undefined method App\Models\UserModel::getProvince
+#0 C:\Users\Kanokphon\Desktop\Prototype\app\Controllers\LoginController.php(53): CodeIgniter\Model->__call('getProvince', Array)
+#1 C:\Users\Kanokphon\Desktop\Prototype\system\CodeIgniter.php(825): App\Controllers\LoginController->auth()
+#2 C:\Users\Kanokphon\Desktop\Prototype\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\Users\Kanokphon\Desktop\Prototype\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Kanokphon\Desktop\Prototype\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Kanokphon\Desktop\Prototype\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Kanokp...')
+#6 {main}
+CRITICAL - 2022-03-07 01:25:34 --> Call to undefined method App\Models\UserModel::getProvince
+#0 C:\Users\Kanokphon\Desktop\Prototype\app\Controllers\LoginController.php(53): CodeIgniter\Model->__call('getProvince', Array)
+#1 C:\Users\Kanokphon\Desktop\Prototype\system\CodeIgniter.php(825): App\Controllers\LoginController->auth()
+#2 C:\Users\Kanokphon\Desktop\Prototype\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\Users\Kanokphon\Desktop\Prototype\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Kanokphon\Desktop\Prototype\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Kanokphon\Desktop\Prototype\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Kanokp...')
+#6 {main}
+CRITICAL - 2022-03-07 01:30:24 --> Call to undefined method App\Models\UserModel::getProvince
+#0 C:\Users\Kanokphon\Desktop\Prototype\app\Controllers\LoginController.php(50): CodeIgniter\Model->__call('getProvince', Array)
+#1 C:\Users\Kanokphon\Desktop\Prototype\system\CodeIgniter.php(825): App\Controllers\LoginController->auth()
+#2 C:\Users\Kanokphon\Desktop\Prototype\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\Users\Kanokphon\Desktop\Prototype\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Kanokphon\Desktop\Prototype\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Kanokphon\Desktop\Prototype\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Kanokp...')
+#6 {main}
+CRITICAL - 2022-03-07 01:30:47 --> Call to undefined method App\Models\UserModel::getProvince
+#0 C:\Users\Kanokphon\Desktop\Prototype\app\Controllers\LoginController.php(50): CodeIgniter\Model->__call('getProvince', Array)
+#1 C:\Users\Kanokphon\Desktop\Prototype\system\CodeIgniter.php(825): App\Controllers\LoginController->auth()
+#2 C:\Users\Kanokphon\Desktop\Prototype\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\Users\Kanokphon\Desktop\Prototype\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Kanokphon\Desktop\Prototype\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Kanokphon\Desktop\Prototype\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Kanokp...')
+#6 {main}
+CRITICAL - 2022-03-07 01:30:53 --> Call to undefined method App\Models\UserModel::getProvince
+#0 C:\Users\Kanokphon\Desktop\Prototype\app\Controllers\LoginController.php(50): CodeIgniter\Model->__call('getProvince', Array)
+#1 C:\Users\Kanokphon\Desktop\Prototype\system\CodeIgniter.php(825): App\Controllers\LoginController->auth()
+#2 C:\Users\Kanokphon\Desktop\Prototype\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\Users\Kanokphon\Desktop\Prototype\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Kanokphon\Desktop\Prototype\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Kanokphon\Desktop\Prototype\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Kanokp...')
+#6 {main}
+CRITICAL - 2022-03-07 01:31:24 --> Call to undefined method App\Models\UserModel::getProvince
+#0 C:\Users\Kanokphon\Desktop\Prototype\app\Controllers\LoginController.php(50): CodeIgniter\Model->__call('getProvince', Array)
+#1 C:\Users\Kanokphon\Desktop\Prototype\system\CodeIgniter.php(825): App\Controllers\LoginController->auth()
+#2 C:\Users\Kanokphon\Desktop\Prototype\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\Users\Kanokphon\Desktop\Prototype\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Kanokphon\Desktop\Prototype\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Kanokphon\Desktop\Prototype\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Kanokp...')
+#6 {main}

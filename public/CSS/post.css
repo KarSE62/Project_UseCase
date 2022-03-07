@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+body{
+    font-family: 'Kanit', cursive;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+.card-post { /*! card ใหญ่ */
+    border-radius: 15px;
+    box-shadow: 1px 1px 8px rgb(185, 185, 185);
+    margin: 3% 0% 0% 0%;
+    overflow: hidden;
+}
+.card-post-title1 { /*! title1 */
+    padding: 15px;
+}
+.img-post-profileUser { /*? รูปคนโพสต์ */
+    border-radius: 50%;
+    width: 55px;
+    float: left;
+}
+.text-post-user { /*? ชื่อคนโพสต์ */
+    margin: 1% 0% 0% 70px;
+    font-weight: bold;
+    color: #494949;
+}
+.text-post-title-time { /*? เวลาที่โพสต์ */
+    margin: 1% 0% 0% 70px;
+    color: rgb(116, 116, 116);
+    font-size: 13px;
+}
+
+.card-post-title2 { /*! title2 */
+    padding: 8px 0 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-post-title { /*? หัวข้อ */
+    float: left;
+    margin: 0% 0% 2% 0%;
+    font-size: 100%;
+}
+.btn-post-join { /*? ปุ่มเข้าร่วม */
+    margin: 0% 2% 2% 0%;
+    /* background-color: #EF5DA8;
+    color: white; */
+    background-color: #ffbce0;
+    color: #EF5DA8;
+    border-radius: 20px;
+    height: 35px;
+    box-shadow: 2px 2px 6px rgb(179, 179, 179);
+}
+.btn-post-join:hover {
+    /* background-color: #ffbce0;
+    color: #EF5DA8; */
+    background-color: #EF5DA8;
+    color: white;
+}
+
+.card-post-body { /*! card ล่าง */
+    padding: 4% 4% 0% 4%;
+}
+.fa-post-calendar { /*? icon ปฏิทิน */
+    color: #EF5DA8;
+    font-size: 18px;
+    margin: 0% 1% 0% 1%;
+}
+.fa-post-location { /*? icon หมุด */
+    color: #EF5DA8;
+    font-size: 18px;
+    margin: 4% 1% 0% 1%;
+}
+.fa-post-numPeople { /*? icon คน */
+    color: #EF5DA8;
+    font-size: 18px;
+    margin: 4% 1% 0% 0%;
+}
+.fa-post-flag {
+    color: #288cff;
+    font-size: 18px;
+    margin: 0% 1% 0% 0%;
+}
+
+/*? คำอธิบายหลัง icon */
+.text-post-date , .text-post-province , .text-post-numPeople {
+    color: #EF5DA8;
+    font-size: 14px;
+    /* font-weight: bold; */
+}
+.span { /*? วันที่ จังหวัด คน ที่ดึงมาจากฐานข้อมูล */
+    color: #919191;
+    font-size: 14px;
+}
+
+.text-post-viewDetail { /*? รายละเอียดเพิ่มเติม */
+    text-decoration: none;
+    color: #EF5DA8;
+    font-size: 14px;
+    float: right;
+}
+.text-post-viewDetail:hover {
+    color: #cf247a;
+}
+
+.post-people-join{ /*! form คลุมผู้เข้าร่วม */
+    padding: 3% 0% 0% 0%;
+    /* font-weight: bold; */
+}
+.text-post-people-join { /*? คำอธิบายหลัง icon */
+    color: #EF5DA8;
+    font-size: 14px;
+    margin: 0% 4% 0% 0%;
+}
+.img-post-people-join { /*? รูปผู้เข้าร่วม */
+    width: 45px;
+    border-radius: 50%;
+    border: 2.5px solid white;
+    margin: 0 0 0 -14px;
+}
+
+.post-line { /*! เส้นใต้ผู้เข้าร่วม */
+    border-bottom: 1px solid #dadada;
+    margin: 3% 0% 2% 0%;
+}
+.post-comment-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-post-comment { /*? text ดูความคิดเห็นทั้งหมด */
+    color: #EF5DA8;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 2%;
+    text-decoration: none;
+    cursor: pointer;
+}
+.text-post-comment:hover {
+    color: #cf247a;
+}
+.post-comment-body { /*! div คอมเมนต์ */
+    margin: 2% 15% 0% 15%;
+}
+.img-post-user-comment { /*? รูปคนคอมเมนต์ */
+    width: 48px;
+    border-radius: 50%;
+    margin: 0% 3% 0% 0%;
+}
+.text-post-user-comment { /*? ข้อความที่คอมเมนต์ */
+    background-color: #e2e2e2;
+    color: #494949;
+    padding: 1% 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    /* box-shadow: 2px 2px 6px rgb(199, 199, 199); */
+}
+.img-post-user-commentOwner { /*? รูปเจ้าของคอมเมนต์ */
+    width: 48px;
+    border-radius: 50%;
+    margin: 0% 3% 0% 0%;
+}
+.text-post-user-commentOwner { /*? ข้อความเจ้าของคอมเมนต์ */
+    background-color: #ffbce0;
+    color: #494949;
+    padding: 1% 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    /* box-shadow: 2px 2px 6px rgb(199, 199, 199); */
+}
+
+.card-post-footer { 
+    background-color: #EF5DA8;
+    padding: 1% 2% 1% 2%;
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+}
+.img-post-footer-comment {
+    width: 40px;
+    border-radius: 50%;
+    margin: 0% 2% 0% 2%;
+    float: left;
+}
+.input-post-footer {
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+}
+.fa-post-inbox {
+    color: #000000;
+    font-size: 22px;
+    margin: 0% 2% 0% 2%;
+    cursor: pointer;
+}
+.fa-post-inbox:hover {
+    color: #ffffff;
+    font-size: 22px;
+    margin: 0% 2% 0% 2%;
+}
+
+.slidedown {
+    display: none;
+}

@@ -1,0 +1,81 @@
+.col-4 .form {
+    border-radius: 15px;
+    padding: 10% 10% 10% 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h3 {
+    color: #EF5DA8;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.mb-3 input , .input-group-text{
+    border-radius: 15px;
+}
+.col-6 .input-group input {
+    text-align: center;
+}
+.col-6 .input-group span {
+    background-color: #ffffff;
+}
+.col select {
+    border-radius: 15px;
+}
+.mb-3 .label{
+    color: #a5a5a5;
+    font-size: 13px;
+}
+.mb-3 .ok {
+    color: #EF5DA8;
+    text-decoration: none;
+}
+
+.button {
+    background: #ff75b1;
+    border: none;
+    border-radius: 15px;
+    width: 46%;
+    height: 38px;
+    margin: 20px 0 10px 0;
+    box-shadow: 2px 2px 4px gray;
+}
+.button:hover {background-color: #EF5DA8}
+.button:active {
+    background-color: #EF5DA8;
+    box-shadow: 2px 2px #bfbfbf;
+}
+.cancel {
+    background: #adadad;
+    border: none;
+    border-radius: 15px;
+    width: 46%;
+    height: 38px;
+    margin: 20px 0 10px 0;
+    box-shadow: 2px 2px 4px gray;
+}
+.cancel:hover {background-color: #8f8f8f}
+.cancel:active {
+    background-color: #8f8f8f;
+    box-shadow: 2px 2px #bfbfbf;
+}
+.mb-3 .imgact {
+    background-image: url('https://shorturl.asia/Xm3zq');
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 50%;
+    border: 4px solid #fc76bb;
+    width: 90%;
+    border-radius: 15px;
+    border-style: dashed;
+    background-color: #e4e4e4;
+}
+.mb-3 .inputimg {
+    border-radius: 15px;
+    background-color: #EF5DA8;
+    opacity: 0%;
+    height: 150px;
+    border: none;
+}
+.mb-3 #testimg {
+    margin: 10px 0 0 0;
+}

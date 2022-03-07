@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+body { 
+    background: pink; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, #ff9ccf , #63beff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ff9ccf , #63beff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ff9ccf , #63beff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ff9ccf , #63beff); /* Standard syntax (must be last) */
+   
+
+    font-family: 'Kanit', cursive;
+   
+}
+.container {
+    margin-top: 80px;
+}
+h1 {
+    text-align: center;
+}
+.cover {
+    width: 80%;
+    margin: 50px 30px 20px 30px;
+}
+.regis {
+    color: #EF5DA8;
+}
+.regis:hover {
+    color: #fff
+}
+
+.login {
+    color: #EF5DA8;
+}
+.login:hover {
+    color: #fff
+}
+label {
+    margin: 5px;
+}
+.cancel {
+    background: #9c9c9c;
+    border: none;
+    border-radius: 15px;
+    width: 46%;
+    height: 38px;
+    margin: 20px 0 10px 0;
+    box-shadow: 2px 2px 4px gray;
+}
+.cancel:hover {background-color: #858585}
+.cancel:active {
+    background-color: #858585;
+    box-shadow: 2px 2px #858585;
+}
+.button {
+    background: #ff75b1;
+    border: none;
+    border-radius: 15px;
+    width: 46%;
+    height: 38px;
+    margin: 20px 0 10px 0;
+    box-shadow: 2px 2px 4px gray;
+}
+.button:hover {background-color: #EF5DA8}
+.button:active {
+    background-color: #EF5DA8;
+    box-shadow: 2px 2px #bfbfbf;
+}
+
+p{
+    font-size: 14px;
+    color: red;
+    margin-left: 10px;
+}
+span {
+    color: #808080;
+    font-size: 13px;
+}
+
+.col-sm-6 {
+    padding: 50px;
+}
+
+.col-sm-6 input {
+    border-radius: 15px;
+}
+.form {
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 10% 22% 10% 22%;
+    border-color: #fff;
+}
+#btn {
+    background: #ff75b1;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    height: 35px;
+    margin: 30px 0 10px 0;
+    box-shadow: 2px 2px 4px gray;
+}
+
+#btn:hover {background-color: #EF5DA8}
+
+#btn:active {
+    background-color: #EF5DA8;
+    box-shadow: 2px 2px #bfbfbf;
+}
+
+.bar{
+    margin-top: 30px;
+}
+
+
