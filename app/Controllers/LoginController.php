@@ -49,9 +49,8 @@ class LoginController extends ResourceController
                 $modelpost = new PostModel();
                 $datapost['posts'] = $modelpost->viewPost();
                 return view('showdata',$datapost);
-            } else {
-                return redirect()->to('/savedata');
-            }
+            } 
+            
         } else {
             $session->setFlashdata('msg', 'ไม่สามารถเข้าสู่ระบบได้ !!!');
             return redirect()->to('/');

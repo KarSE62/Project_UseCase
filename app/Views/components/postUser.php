@@ -20,6 +20,7 @@
         <div class="card-post-title2">
             <h5 class="text-post-title"><?php echo $post["postTitle"]?></h5>
             <a href="#" class="btn btn-post-join justify-content-end"> <i class="far fa-plus-circle"></i>&nbsp; เข้าร่วม</a>
+            <a href="/deletePost/<?php echo $post["postId"] ?>" class="btn btn-post-join justify-content-end"> &nbsp; ลบ</a>
         </div>
 
         <img src="<?php echo $post["imagePost"]?>" class="card-img-top">

@@ -35,6 +35,7 @@ $routes->get('/', 'LoginController::index');
 $routes->get('/showdata', 'LoginController::showdata',);
 $routes->get('/logout', 'LoginController::Logout',);
 $routes->get('/createPost', 'PostController::index',);
+$routes->get('/deletePost/(:any)', 'PostController::deletePost/$1',);
 /*
  * --------------------------------------------------------------------
  * Additional Routing
