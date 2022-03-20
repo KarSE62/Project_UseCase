@@ -23,6 +23,8 @@ class PostController extends ResourceController
         $model = new PostModel();
         $deleted = $model->where('postId', $id)->delete();
         if($deleted){
+            $session = session();
+            $session->setFlashdata('msg', 'ลบโพสต์ประกาศกิจกรรม');
             $modelpost = new PostModel();
             $datapost['posts'] = $modelpost->viewPost();
             echo view('showdata',$datapost);
@@ -60,6 +62,52 @@ class PostController extends ResourceController
             echo view('showdata', $datapost);
             return redirect()->to('/showdata');
         }
+    }
+
+    public function showDetailPost($id=null)
+    {
+        helper(['form']);
+        echo view('editpost');
+        
+    }
+
+    public function editPost($id)
+    {
+        //$id = 35;
+        $model = new PostModel();
+        $datapost['posts'] = $model->viewsinglepost($id);
+        //var_dump($datapost);
+        echo view('editpost', $datapost);
+        
+    }
+    public function editPostSave()
+    {
+        $model = new PostModel();
+        $id = [
+            'postId' => $this->request->getVar('postId'),
+        ];
+        $dataPost = [
+            'postTitle' => $this->request->getVar('postTitle'),
+            'categoryId' => $this->request->getVar('categoryId'),
+            'imagePost' => $this->request->getVar('imagePost'),
+            'detailPost' => $this->request->getVar('detailPost'),
+            'note' => $this->request->getVar('note'),
+            'num_people' => $this->request->getVar('num_people'),
+            'expenses' => $this->request->getVar('expenses'),
+            'province' => $this->request->getVar('province'),
+            'district' => $this->request->getVar('district'),
+            'subDistrict' => $this->request->getVar('subDistrict'),
+            'date_start' => $this->request->getVar('date_start'),
+            'date_end' => $this->request->getVar('date_end'),
+        ];
+        $save = $model->updatepost($dataPost,$id);
+        if($save){
+            $modelpost = new PostModel();
+                $datapost['posts'] = $modelpost->viewPost();
+                echo view('showdata',$datapost);
+                return redirect()->to('/showdata');
+        }
+        
     }
     
 }

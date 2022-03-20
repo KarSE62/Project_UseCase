@@ -48,7 +48,8 @@ class LoginController extends ResourceController
             if ($statusUser == "0" || $statusUser == "1") {
                 $modelpost = new PostModel();
                 $datapost['posts'] = $modelpost->viewPost();
-                return view('showdata',$datapost);
+                echo view('showdata',$datapost);
+                return redirect()->to('/showdata');
             } 
             
         } else {

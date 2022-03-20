@@ -8,7 +8,7 @@
   	$query = mysqli_query($con, $sql);
   	echo '<option value="" selected disabled>-กรุณาเลือกอำเภอ-</option>';
   	foreach ($query as $value) {
-  		echo '<option value="'.$value['id'].'">'.$value['name_th'].'</option>';
+  		echo '<option value="'.$value['id'].'">'.$value['name_th_am'].'</option>';
   		
   	}
   }
@@ -20,7 +20,7 @@ if (isset($_POST['function']) && $_POST['function'] == 'amphures') {
     $query = mysqli_query($con, $sql);
     echo '<option value="" selected disabled>-กรุณาเลือกตำบล-</option>';
     foreach ($query as $value2) {
-      echo '<option value="'.$value2['id'].'">'.$value2['name_th'].'</option>';
+      echo '<option value="'.$value2['id'].'">'.$value2['name_th_dis'].'</option>';
       
     }
   }

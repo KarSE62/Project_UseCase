@@ -36,6 +36,8 @@ $routes->get('/showdata', 'LoginController::showdata',);
 $routes->get('/logout', 'LoginController::Logout',);
 $routes->get('/createPost', 'PostController::index',);
 $routes->get('/deletePost/(:any)', 'PostController::deletePost/$1',);
+$routes->get('/showdetailpost', 'PostController::showDetailPost',);
+$routes->get('/editPost/(:any)', 'PostController::editPost/$1',);
 /*
  * --------------------------------------------------------------------
  * Additional Routing

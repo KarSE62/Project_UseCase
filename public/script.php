@@ -5,7 +5,7 @@
 
       $.ajax({
       type: "POST",
-      url: "ajax_db.php",
+      url: "http://localhost:8080/ajax_db.php",
       data: {id:id_province,function:'provinces'},
       success: function(data){
           $('#amphures').html(data); 
@@ -20,7 +20,7 @@
 
       $.ajax({
       type: "POST",
-      url: "ajax_db.php",
+      url: "http://localhost:8080/ajax_db.php",
       data: {id:id_amphures,function:'amphures'},
       success: function(data){
           $('#districts').html(data);  

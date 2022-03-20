@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,11 +14,12 @@
 
     <link rel="stylesheet" href="/CSS/navbar.css">
     <link rel="stylesheet" href="/CSS/post.css">
-    
-    
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 
     <title>Home</title>
-  
+
 
 </head>
 
@@ -29,14 +30,15 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-3">
-                
+
             </div>
             <div class="col-sm-6">
+               
                 <?php require('components/postUser.php'); ?>
             </div>
             <div class="col-sm-3">
-               
+
+            </div>
         </div>
-    </div>
-    
+
 </html>
