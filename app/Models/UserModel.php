@@ -8,10 +8,7 @@ class UserModel extends Model{
     protected $primaryKey = 'userId';
 
 
-    public function register($data){
-        $this->save($data);
-        return TRUE;
-    }
+   
 
 
 
